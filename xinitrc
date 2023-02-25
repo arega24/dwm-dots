@@ -17,7 +17,7 @@ urxvtd -q -o -f &
 syncthing --no-browser &
 
 # reloads colors after dwm stars
-(sleep 0.1 && dwmc reloadxrdb) &
+(sleep 0.3 && dwmc reloadxrdb) &
 
 exec slstatus &
 exec dbus-run-session dwm

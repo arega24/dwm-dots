@@ -9,7 +9,7 @@ set sortby name
 
 #---------- Shortcuts and key Bidings ----------
 
-map V $vim "$f"
+map V $nvim "$f"
 map f :fzf_jump
 # map i $sxiv "$f" &
 
